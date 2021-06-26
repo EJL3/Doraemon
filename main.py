@@ -287,7 +287,6 @@ def Doraemon():
 
     black_eyes()
 
-
 if __name__ == '__main__':
     screensize(800, 600, "#f0f0f0")
     pensize(3)
@@ -297,4 +296,5 @@ if __name__ == '__main__':
 
     my_goto(-300, -300)
     write('BY :>  RIZ', font=("Bradley Hand ITC", 32, "bold"))
+    
     mainloop()
